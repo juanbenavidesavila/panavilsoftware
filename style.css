@@ -1,0 +1,163 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#btn-mas {
+  display: none;
+}
+
+.container {
+  position: fixed;
+  bottom: 20px;
+  left:65%;
+}
+
+
+.redes a,
+.btn-mas label {
+  display: block;
+  text-decoration: none;
+  background: #1B9CFC;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+}
+
+.redes {
+  margin-right: 12px;
+
+}
+
+.fa {
+  margin-right: 8px;
+}
+
+
+
+a {
+  color: black;
+}
+
+.redes a {
+  margin-bottom: -15px;
+  margin-left: 10px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.redes a:hover {
+  background: #033768;
+  color: #b3490c;
+}
+
+
+#btn-mas:checked~.redes a {
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-mas label {
+  cursor: pointer;
+  background: #009432;
+  font-size: 23px;
+}
+
+#btn-mas:checked~.btn-mas label {
+  transform: rotate(135deg);
+  font-size: 25px;
+}
+
+.img-redes {
+  width: 60%;
+  height: 60%;
+}
+
+section.nosotros {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #33A2FF;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#quienes_somos{
+    text-align: left;
+    padding-top: 7%;
+ }
+
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
+
+.Features-paragraph{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.parrafo{
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Feature{
+  display: flex;
+  text-align: center;
+}
+
+.Hello{
+  margin-bottom: 20px;
+}
+
+.box-shadow { box-shadow:5px 5px 5px black; }
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.Feature_footer{
+  text-align: center;
+}
+
+.Feature_footer_2{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.web{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
