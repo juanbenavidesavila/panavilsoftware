@@ -15,10 +15,9 @@ html {
 
 .container {
   position: fixed;
-  bottom: 20px;
+  bottom: 235px;
   left:65%;
 }
-
 
 .redes a,
 .btn-mas label {
@@ -42,8 +41,6 @@ html {
 .fa {
   margin-right: 8px;
 }
-
-
 
 a {
   color: black;
@@ -92,7 +89,7 @@ section.nosotros {
   margin-right: 10px;
 }
 
-#quienes_somos{
+#quienes_somos {
     text-align: left;
     padding-top: 7%;
  }
@@ -115,23 +112,23 @@ span.wave {
   100% { transform: rotate(  0.0deg) }
 }
 
-.Features-paragraph{
+.Features-paragraph {
   text-align: right;
   margin-right: 10px;
 }
 
-.parrafo{
+.parrafo {
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.Feature{
+.Feature {
   display: flex;
   text-align: center;
 }
 
-.Hello{
+.Hello {
   margin-bottom: 20px;
 }
 
@@ -142,16 +139,37 @@ footer {
   text-align: center;
 }
 
-.Feature_footer{
+section.contacto {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.red {
+  display: initial;
+}
+
+.img-footer {
+  height: 50px;
+  width: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.Feature_footer {
   text-align: center;
 }
 
-.Feature_footer_2{
+.Feature_footer_2 {
   text-align: left;
   margin-left: 20px;
 }
 
-.web{
+.web {
   margin-left: 20px;
   margin-right: 20px;
 }
